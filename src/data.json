@@ -1,0 +1,50 @@
+{
+  "formateurs": [
+    {
+      "id": 1,
+      "email": "laurent.le-lardeux@gfi.fr",
+      "password": "test",
+      "nom": "LE LARDEUX",
+      "prenom": "Laurent"
+    },
+    {
+      "id": 2,
+      "email": "info@lcube.fr",
+      "password": "demo",
+      "nom": "MARTIN",
+      "prenom": "Henri"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "session-1",
+      "titre": "Développement web",
+      "date_debut": "",
+      "date_fin": "",
+      "statut": true,
+      "formateur": {
+        "id": 1,
+        "email": "laurent.le-lardeux@gfi.fr",
+        "password": "test",
+        "nom": "LE LARDEUX",
+        "prenom": "Laurent"
+      },
+      "stagiaire": [
+        {
+          "id": "stagiaire-1",
+          "nom": "DUPONT",
+          "prenom": "Martine",
+          "statut": false,
+          "signature": null
+        },
+        {
+          "id": "stagiaire-2",
+          "nom": "DURAND",
+          "prenom": "Michel",
+          "statut": false,
+          "signature": null,
+        },
+      ]
+    }
+  ]
+}
